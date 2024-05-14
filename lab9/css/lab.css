@@ -6,10 +6,21 @@
     background-color: #2a3125 !important;
     border: solid 5px #aab9a2 !important;
     font-size: larger !important;
-    color:#aab9a2 !important;
 }
 
-#challenge {
+.minor-section{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #495641;
+    background-color: #aab9a2;
+}
+
+/*task x*/
+.special-section {
+    background-color: black;
+}
+
+/*#challenge {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #495641;
@@ -28,7 +39,7 @@
     margin-bottom: 10px;
     border: solid 1px #495641;
     background-color: #aab9a2;
-}
+}*/
 
 body {
     background-color: #ebf9e4;
