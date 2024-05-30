@@ -2,16 +2,16 @@
 // Author: Layla Hill
 // Date: 11 May 2024
 
-/*add buttons
+// add buttons
 $("#challenge").append("<button id='challenge-button'>Make Special</button");
 $("#problems").append("<button id='problems-button'>Make Special</button");
 $("#results").append("<button id='results-button'>Make Special</button");
-*/
 
-//task x button
-$(".minor-section").append("<button id='special-button'>Make Special</button>");
 
-/*add an event listener
+// //task x button
+// $(".minor-section").append("<button id='special-button'>Make Special</button>");
+
+// add an event listener
 $("#challenge-button").click(function(){
     $("#challenge").toggleClass("special");
 });
@@ -21,9 +21,9 @@ $("#problems-button").click(function(){
 $("#results-button").click(function(){
     $("#results").toggleClass("special");
 });
-*/
 
-//task x event listener
-$("special-button").click(function(){
-    $(this).parent().toggleClass("special-section");
-})
+
+// //task x event listener
+// $("special-button").click(function(){
+//     $(this).parent().toggleClass("special-section");
+// })
