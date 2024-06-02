@@ -3,7 +3,7 @@
 // Date: 29 April 2024
 
 //Define Variables
-const myTransport = ["walking", "bus", "car"];
+let myTransport = ["walking", "bus", "car"];
 
 let myMainRide = {
   make: "Honda",
